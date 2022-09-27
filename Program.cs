@@ -6,9 +6,9 @@ namespace bytebank_ADM
             Console.WriteLine("ByteBank - ADM");
 
             Funcionario pedro = new Funcionario();
-            pedro.nome = "pedro";
-            pedro.cpf = "12135656";
-            pedro.salario = 2000;
+            pedro.Nome = "pedro";
+            pedro.Cpf = "12135656";
+            pedro.Salario = 2000;
 
             Console.WriteLine("Bonificacao: " + pedro.getBonificacao()); 
         }

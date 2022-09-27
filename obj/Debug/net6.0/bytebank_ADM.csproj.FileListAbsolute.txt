@@ -1,0 +1,5 @@
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.csproj.AssemblyReference.cache
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.AssemblyInfoInputs.cache
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.AssemblyInfo.cs
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.csproj.CoreCompileInputs.cache

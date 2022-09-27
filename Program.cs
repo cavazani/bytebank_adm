@@ -5,7 +5,7 @@ namespace bytebank_ADM
         static void Main(string[] args) {
             Console.WriteLine("ByteBank - ADM");
 
-            Funcionario pedro = new Funcionario();
+            Funcionario pedro = new Funcionario(1);
             pedro.Nome = "pedro";
             pedro.Cpf = "12135656";
             pedro.Salario = 2000;

@@ -5,19 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace bytebank_ADM.Funcionarios {
-    internal class Diretor 
-    {
+    public class Diretor {
         public string Nome { get; set; }
-        public string Cpf { get; set; }
+        public string CPF { get; set; }
         public double Salario { get; set; }
 
-
-        public double getBonificacao() 
-        {
-          return Salario;
+        public double GetBonificacao() {
+            return Salario;
         }
-
-      
     }
 }
 

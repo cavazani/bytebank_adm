@@ -3,3 +3,13 @@ C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.GeneratedMSBuildEditor
 C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.AssemblyInfoInputs.cache
 C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.AssemblyInfo.cs
 C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.csproj.CoreCompileInputs.cache
+C:\Projetos\c#\bytebank_ADM\bin\Debug\net6.0\bytebank_ADM.exe
+C:\Projetos\c#\bytebank_ADM\bin\Debug\net6.0\bytebank_ADM.deps.json
+C:\Projetos\c#\bytebank_ADM\bin\Debug\net6.0\bytebank_ADM.runtimeconfig.json
+C:\Projetos\c#\bytebank_ADM\bin\Debug\net6.0\bytebank_ADM.dll
+C:\Projetos\c#\bytebank_ADM\bin\Debug\net6.0\bytebank_ADM.pdb
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.dll
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\refint\bytebank_ADM.dll
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.pdb
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\bytebank_ADM.genruntimeconfig.cache
+C:\Projetos\c#\bytebank_ADM\obj\Debug\net6.0\ref\bytebank_ADM.dll

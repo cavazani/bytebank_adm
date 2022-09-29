@@ -11,17 +11,16 @@ namespace bytebank_ADM.Utilitario
     {
         private double _totalBonificacao;
 
-        //public void Registrar(Funcionario funcionario)
-        //{
-        //    _totalBonificacao += funcionario.GetBonificacao();
-        //}
+        public void Registrar(Funcionario funcionario) {
+            _totalBonificacao += funcionario.GetBonificacao();
+        }
 
         public void Registrar(Diretor diretor)
         {
             _totalBonificacao += diretor.GetBonificacao();
         }
 
-        public double GetTotalBonificacao()
+        public double getBonificacao()
         {
             return _totalBonificacao;
         }

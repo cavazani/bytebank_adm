@@ -26,7 +26,8 @@ namespace bytebank_ADM
             paula.Cpf = "12135656";
             paula.Salario = 5000;
 
-            Funcionario joao = new Diretor();
+            Funcionario andre = new Diretor();
+            andre.Nome = "Andre";
 
             Console.WriteLine("");
 
@@ -39,7 +40,7 @@ namespace bytebank_ADM
             gerenciador.Registrar(pedro);
             gerenciador.Registrar(paula);
 
-            Console.WriteLine("Total de Bonificação: " + gerenciador.GetBonificacao());
+            Console.WriteLine("Total de Bonificação: " + gerenciador.getBonificacao);
 
             Console.ReadKey();
         }

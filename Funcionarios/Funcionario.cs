@@ -18,11 +18,11 @@ namespace bytebank_ADM.Funcionarios {
         public string Cpf { get; set; }
         public double Salario { get; set; }
 
-        
 
-        public double GetBonificacao() 
+        //Palavra Virtual informa que o metodo(GetBonificacao) pode ser redefinido na classe filho
+        public virtual double GetBonificacao() 
         {   
-          return Salario * 0.1;  
+          return Salario * 0.10;  
             
         }
     }

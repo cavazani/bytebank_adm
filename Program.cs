@@ -7,8 +7,7 @@ namespace bytebank_ADM
         static void Main(string[] args) {
             Console.WriteLine("ByteBank - ADM");
 
-            GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao(); 
-           
+            GerenciadorBonificacao gerenciador = new GerenciadorBonificacao(); 
 
 
             Funcionario pedro = new Funcionario();
@@ -19,7 +18,7 @@ namespace bytebank_ADM
             Console.WriteLine("Nome: " + pedro.Nome);
             Console.WriteLine("CPF: " + pedro.Cpf);
             Console.WriteLine("Salario: " + pedro.Salario);
-            Console.WriteLine("Bonificacao: " + pedro.getBonificacao());
+            Console.WriteLine("Bonificacao: " + pedro.GetBonificacao());
             Console.ReadKey();
 
             Diretor paula = new Diretor();
@@ -27,18 +26,20 @@ namespace bytebank_ADM
             paula.Cpf = "12135656";
             paula.Salario = 5000;
 
+            Funcionario joao = new Diretor();
+
             Console.WriteLine("");
 
             Console.WriteLine("Nome: " + paula.Nome);
             Console.WriteLine("CPF: " + paula.Cpf);
             Console.WriteLine("Salario: " + paula.Salario);
-            Console.WriteLine("Bonificacao: " + paula.getBonificacao());
+            Console.WriteLine("Bonificacao: " + paula.GetBonificacao());
             Console.WriteLine("");
 
             gerenciador.Registrar(pedro);
             gerenciador.Registrar(paula);
 
-            Console.WriteLine("Tptaç de Bonificação: " + gerenciador.getBonificacao());
+            Console.WriteLine("Total de Bonificação: " + gerenciador.GetBonificacao());
 
             Console.ReadKey();
         }

@@ -20,10 +20,16 @@ namespace bytebank_ADM.Funcionarios {
 
 
         //Palavra Virtual informa que o metodo(GetBonificacao) pode ser redefinido na classe filho
-        public virtual double GetBonificacao() 
-        {   
+        public virtual double GetBonificacao(){   
           return Salario * 0.10;  
-            
+        }
+
+        //Static informa que a propriedade é da classe e não do objeto
+        public static int totalFuncionarios { get; private set; }
+
+        public Funcionario() {
+            Console.WriteLine("Criando um funcionario");
+            totalFuncionarios++;
         }
     }
 }

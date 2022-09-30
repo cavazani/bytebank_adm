@@ -9,9 +9,14 @@ namespace bytebank_ADM.Funcionarios {
     {
         //Override, refinindo o metodo da classe pai
         public override double GetBonificacao() {
-
             return Salario + base.GetBonificacao(); //Base é usado para confirmar que esta sendo usado o metodo da classe pai
         }
+
+        //Construtor
+        public Diretor() {
+            Console.WriteLine("Criando um diretor");
+        }
+
     }
 }
 

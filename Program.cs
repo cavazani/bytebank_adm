@@ -14,6 +14,7 @@ namespace bytebank_ADM
             pedro.Nome = "pedro";
             pedro.Cpf = "12135656";
             pedro.Salario = 2000;
+            Console.WriteLine("Total de funcionario: "+Funcionario.totalFuncionarios);
 
             Console.WriteLine("Nome: " + pedro.Nome);
             Console.WriteLine("CPF: " + pedro.Cpf);
@@ -25,9 +26,11 @@ namespace bytebank_ADM
             paula.Nome = "Paula";
             paula.Cpf = "12135656";
             paula.Salario = 5000;
+            Console.WriteLine("Total de funcionario: " + Funcionario.totalFuncionarios);
 
             Funcionario andre = new Diretor();
             andre.Nome = "Andre";
+            Console.WriteLine("Total de funcionario: " + Funcionario.totalFuncionarios);
 
             Console.WriteLine("");
 

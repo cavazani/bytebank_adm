@@ -13,7 +13,8 @@ namespace bytebank_ADM.Funcionarios {
         }
 
         //Construtor
-        public Diretor() {
+        public Diretor(string cpf) :base(cpf)
+        {
             Console.WriteLine("Criando um diretor");
         }
 

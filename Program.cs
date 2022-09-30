@@ -10,9 +10,8 @@ namespace bytebank_ADM
             GerenciadorBonificacao gerenciador = new GerenciadorBonificacao(); 
 
 
-            Funcionario pedro = new Funcionario();
+            Funcionario pedro = new Funcionario("151616988");
             pedro.Nome = "pedro";
-            pedro.Cpf = "12135656";
             pedro.Salario = 2000;
             Console.WriteLine("Total de funcionario: "+Funcionario.totalFuncionarios);
 
@@ -22,13 +21,12 @@ namespace bytebank_ADM
             Console.WriteLine("Bonificacao: " + pedro.GetBonificacao());
             Console.ReadKey();
 
-            Diretor paula = new Diretor();
+            Diretor paula = new Diretor("15614665");
             paula.Nome = "Paula";
-            paula.Cpf = "12135656";
             paula.Salario = 5000;
             Console.WriteLine("Total de funcionario: " + Funcionario.totalFuncionarios);
 
-            Funcionario andre = new Diretor();
+            Funcionario andre = new Diretor("000000000");
             andre.Nome = "Andre";
             Console.WriteLine("Total de funcionario: " + Funcionario.totalFuncionarios);
 

@@ -15,7 +15,7 @@ namespace bytebank_ADM.Funcionarios {
         //private int _tipo;
 
         public string Nome { get; set; }
-        public string Cpf { get; set; }
+        public string Cpf { get;private set; }
         public double Salario { get; set; }
 
 
@@ -27,7 +27,8 @@ namespace bytebank_ADM.Funcionarios {
         //Static informa que a propriedade é da classe e não do objeto
         public static int totalFuncionarios { get; private set; }
 
-        public Funcionario() {
+        public Funcionario(string cpf) {
+            Cpf = cpf;
             Console.WriteLine("Criando um funcionario");
             totalFuncionarios++;
         }
